@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+    background-color: #ffffff;
+}
+
+.logo-header {
+    color: var(--iris, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+
+}
+
+.logo-header-text {
+    color: #2E2F42;
+}
