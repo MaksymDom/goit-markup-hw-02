@@ -34,7 +34,7 @@ a {
 }
 
 .nav-menu:hover,
-.nav-menu:forus {
+.nav-menu:focus {
     color: #404bbf;
 }
 
@@ -50,7 +50,7 @@ a {
 
 .contact-info-link:hover,
 .contact-info-link:focus {
-    color: #404bbf
+    color: #404bbf;
 }
 
 /* hero */
@@ -78,7 +78,6 @@ a {
     letter-spacing: 0.64px;
     color: white;
     cursor: pointer;
-    border-radius: 4px;
 }
 
 .btn-hero:hover,
@@ -115,18 +114,22 @@ a {
     background-color: #f4f4fd;
 }
 
+.team-list {
+    background-color: #ffffff;
+}
+
 .team {
     text-align: center;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
 
 .team-title {
-    color: #2E2F42;
+    color: #2e2f42;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -150,10 +153,10 @@ a {
 }
 
 .portfolio {
-    color: #2E2F42;
+    color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02;
 }
 
@@ -170,8 +173,8 @@ a {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0.02;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /*footer*/
